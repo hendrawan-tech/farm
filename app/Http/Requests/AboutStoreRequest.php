@@ -25,7 +25,7 @@ class AboutStoreRequest extends FormRequest
     {
         return [
             'title' => ['required', 'max:255', 'string'],
-            'description' => ['required', 'max:255', 'string'],
+            'description' => ['required', 'string'],
             'image' => ['nullable', 'image', 'max:1024'],
             'logo' => ['image', 'max:1024', 'nullable'],
             'phone' => ['required', 'max:255', 'string'],

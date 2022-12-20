@@ -24,15 +24,13 @@
     </x-inputs.group>
 
     <x-inputs.group class="col-sm-12">
-        <x-inputs.number
+        <x-inputs.text
             name="price"
             label="Price"
             :value="old('price', ($editing ? $product->price : ''))"
-            max="255"
-            step="0.01"
             placeholder="Price"
             required
-        ></x-inputs.number>
+        ></x-inputs.text>
     </x-inputs.group>
 
     <x-inputs.group class="col-sm-12">

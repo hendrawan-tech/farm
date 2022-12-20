@@ -10,6 +10,7 @@ use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\FrontController;
 use App\Http\Controllers\PermissionController;
 
 /*
@@ -23,11 +24,9 @@ use App\Http\Controllers\PermissionController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [FrontController::class, 'index'])->name('home');
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
