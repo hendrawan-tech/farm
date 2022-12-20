@@ -26,6 +26,10 @@ use App\Http\Controllers\PermissionController;
 
 Route::get('/', [FrontController::class, 'index'])->name('home');
 
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});
+
 Auth::routes(['register' => false]);
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
