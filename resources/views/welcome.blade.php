@@ -78,7 +78,8 @@
     <header class="header slider-fade" data-scroll-index="0">
         <div class="owl-carousel owl-theme">
             @foreach ($sliders as $item)
-                <div class="text-left item bg-img" data-overlay-dark="4" data-background="{{ asset($item->image) }}">
+                <div class="text-left item bg-img" data-overlay-dark="4"
+                    data-background="{{ asset('public/' . $item->image) }}">
                     <div class="v-middle caption mt-30">
                         <div class="container">
                             <div class="row">
@@ -181,10 +182,10 @@
             <div class="row winta-photos" id="winta-section-photos">
                 @foreach ($galleries as $item)
                     <div class="col-md-4 gallery-item">
-                        <a href="{{ asset($item->image) }}" title="{{ $item->name }}" class="img-zoom">
+                        <a href="{{ asset('public/' . $item->image) }}" title="{{ $item->name }}" class="img-zoom">
                             <div class="gallery-box">
                                 <div class="gallery-img">
-                                    <img src="{{ asset($item->image) }}" class="img-fluid mx-auto d-block"
+                                    <img src="{{ asset('public/' . $item->image) }}" class="img-fluid mx-auto d-block"
                                         alt="work-img" />
                                 </div>
                             </div>
@@ -257,7 +258,7 @@
                                 <div class="item animate-box" data-animate-effect="fadeInUp">
                                     <div class="post-img">
                                         <div class="img">
-                                            <img src="{{ asset($item->image) }}" alt="img" />
+                                            <img src="{{ asset('public/' . $item->image) }}" alt="img" />
                                         </div>
                                     </div>
                                     <div class="cont">
