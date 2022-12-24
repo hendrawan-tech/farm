@@ -266,7 +266,7 @@
                                         <p>
                                             {{ $item->description }}
                                         </p>
-                                        <a href="#" class="more">Details <i
+                                        <a href="#" class="more">Lanjut Membaca <i
                                                 class="ti-angle-double-right"></i></a>
                                     </div>
                                 </div>
