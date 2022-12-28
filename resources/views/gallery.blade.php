@@ -37,83 +37,80 @@
     <div class="mouse-cursor cursor-outer"></div>
     <div class="mouse-cursor cursor-inner"></div>
     
+    <!-- Page Content -->
+    <div class="container">
     
-    <div class="photo-gallery">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Berkah Istiqomah Farm Galeri</h2>
-                <p class="text-center">Koleksi Galeri Kami</p>
-            </div>
-            <div class="row photos">
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/desk.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/desk.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/building.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/building.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/loft.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/loft.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/building.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/building.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/loft.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/loft.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/desk.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/desk.jpg"></a></div>
-            </div>
+      <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Galeri Berkah Istiqomah Farm</h1>
+    
+      <hr class="mt-2 mb-5">
+    
+      <div class="row text-center text-lg-start">
+    
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+          </a>
         </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+          </a>
+        </div>
+      </div>
+    
     </div>
-  
 
-    <!-- Footer -->
-    <footer class="main-footer dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-3 mb-30">
-                    <div class="item abot">
-                        <div class="logo mb-20">
-                            <h2>
-                                <a href="index.html">Berkah Istiqomah</a><span> Farm</span>
-                            </h2>
-                        </div>
-                        <p>
-                            {{ $about->sort_description }}
-                        </p>
-                        <div class="social-icon">
-                            <a href="index.html"><i class="ti-facebook"></i></a>
-                            <a href="index.html"><i class="ti-twitter"></i></a>
-                            <a href="index.html"><i class="ti-instagram"></i></a>
-                            <a href="index.html"><i class="ti-pinterest"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 offset-md-1 mb-30">
-                    <div class="item fotcont">
-                        <div class="fothead">
-                            <h6>Phone & Email</h6>
-                        </div>
-                        <p>{{ $about->phone }}</p>
-                        <p>{{ $about->email }}</p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 offset-md-1 mb-30">
-                    <div class="item fotcont">
-                        <div class="fothead">
-                            <h6>Our Address</h6>
-                        </div>
-                        <p>
-                            {{ $about->address }}
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sub-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="text-left">
-                            <p>© 2022, {{ $about->title }}. All right reserved.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <p class="right"><a href="#">Terms & Conditions</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
     <!-- jQuery -->
     <script src="{{ asset('js/jquery-3.0.0.min.js') }}"></script>
     <script src="{{ asset('js/jquery-migrate-3.0.0.min.js') }}"></script>

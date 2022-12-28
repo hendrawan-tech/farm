@@ -20,11 +20,6 @@
         gtag("config", "UA-144098545-1");
     </script>
 </head>
-
-<h1>h1. Bootstrap heading</h1>
-
-<p class="text-break">mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
-
 <body>
     <!-- Preloader -->
     <div id="preloader"></div>
@@ -36,68 +31,21 @@
     </div>
     <!-- Mouse cursor -->
     <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div>
-    
+    <div class="mouse-cursor cursor-inner"></div> 
 
-   
-    <!-- Footer -->
-    <footer class="main-footer dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-3 mb-30">
-                    <div class="item abot">
-                        <div class="logo mb-20">
-                            <h2>
-                                <a href="index.html">Berkah Istiqomah</a><span> Farm</span>
-                            </h2>
-                        </div>
-                        <p>
-                            {{ $about->sort_description }}
-                        </p>
-                        <div class="social-icon">
-                            <a href="index.html"><i class="ti-facebook"></i></a>
-                            <a href="index.html"><i class="ti-twitter"></i></a>
-                            <a href="index.html"><i class="ti-instagram"></i></a>
-                            <a href="index.html"><i class="ti-pinterest"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 offset-md-1 mb-30">
-                    <div class="item fotcont">
-                        <div class="fothead">
-                            <h6>Phone & Email</h6>
-                        </div>
-                        <p>{{ $about->phone }}</p>
-                        <p>{{ $about->email }}</p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 offset-md-1 mb-30">
-                    <div class="item fotcont">
-                        <div class="fothead">
-                            <h6>Our Address</h6>
-                        </div>
-                        <p>
-                            {{ $about->address }}
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sub-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="text-left">
-                            <p>© 2022, {{ $about->title }}. All right reserved.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <p class="right"><a href="#">Terms & Conditions</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div class="m-10">
+        <p class="text-center ">Title</p>
+        <p class="text-break text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat velit fringilla, venenatis enim at, facilisis mi. Nulla condimentum euismod ultrices. Vestibulum imperdiet rutrum ex vel pulvinar. Nullam eget tristique ex. Aliquam finibus, nunc ac bibendum auctor, tellus quam malesuada odio, eget blandit est ante ac ex. Quisque a pulvinar massa. Cras accumsan vulputate justo aliquet bibendum. Nunc ac massa condimentum, pharetra lacus eget, suscipit leo. Fusce vehicula, orci non suscipit lobortis, mi orci dapibus arcu, ut eleifend tortor sapien id erat.
+
+            Vivamus blandit lacus ac auctor consequat. Nam tellus massa, aliquet non sapien non, malesuada euismod neque. Maecenas semper ex nec nunc iaculis, eget luctus metus vulputate. Nullam ut porttitor quam. Sed eget velit pellentesque, porta lectus et, condimentum felis. Sed a consequat felis. Ut sed nisl ac enim accumsan eleifend vitae eu magna. Mauris et neque sapien. Maecenas iaculis posuere ligula vel placerat. Quisque congue, leo id tincidunt tempor, erat massa auctor ipsum, in dictum ex elit quis elit. Donec at feugiat nisl. Vivamus dapibus risus vel justo porttitor auctor. Phasellus rhoncus viverra erat, quis commodo augue accumsan nec. Nam vestibulum vestibulum ornare.
+            
+            Maecenas lacus tortor, maximus vel malesuada eget, ultricies id velit. In hac habitasse platea dictumst. Nam id mi rhoncus lectus dictum semper a vel elit. Nunc mollis nisl ut consectetur blandit. Sed vitae faucibus lacus. Nullam sit amet lobortis orci, ut congue lectus. Aliquam erat volutpat. Nulla aliquet neque nec lobortis feugiat.
+            
+            Vestibulum in mi rhoncus, pulvinar sapien id, ullamcorper augue. Morbi a aliquet felis. Phasellus ut mi quis felis varius eleifend. Mauris tempor vel nisl at suscipit. Duis nec porta sem. Praesent sit amet ultrices velit. Aliquam id leo ultrices, volutpat nisi ultrices, vestibulum ipsum. Suspendisse lacinia purus nec massa semper pretium. Donec vitae lorem diam. Morbi a mauris cursus mauris faucibus pharetra quis ut est. Donec non aliquet nulla, sed ornare nibh. Praesent ligula lorem, pharetra sed lorem id, pretium iaculis enim.
+            
+            Donec sit amet dui at nisi pharetra gravida. Pellentesque pulvinar arcu orci, in tempus mauris semper nec. Fusce eu pharetra risus. Sed et pulvinar quam. Fusce consectetur molestie metus quis porta. Maecenas iaculis ac ante id ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent vestibulum ligula vitae elit porttitor interdum. Ut suscipit leo id dictum semper. In blandit purus id sollicitudin gravida. Curabitur mattis malesuada dui sed efficitur. Pellentesque rhoncus ornare lacus eu blandit. Etiam sed sapien sed magna mattis cursus sit amet a sapien.</p>    
+    </div> 
+    
     <!-- jQuery -->
     <script src="{{ asset('js/jquery-3.0.0.min.js') }}"></script>
     <script src="{{ asset('js/jquery-migrate-3.0.0.min.js') }}"></script>

@@ -17,8 +17,9 @@
             dataLayer.push(arguments);
         }
         gtag("js", new Date());
-        gtag("config", "UA-144098545-1");
+        gtag("config", "UA-144098545-1"); 
     </script>
+
 </head>
 
 <body>
@@ -35,7 +36,7 @@
     <div class="mouse-cursor cursor-inner"></div>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
-        <div class="container">
+        <div class="container bg-black">
             <!-- Logo -->
             <div class="logo-wrapper valign">
                 <div class="logo">
@@ -266,13 +267,13 @@
                                         <p>
                                             {{ $item->description }}
                                         </p>
-                                        <a href="#" class="more">Lanjut Membaca <i
+                                        <a href="{{ route('detail') }}" class="more">Lanjut Membaca <i
                                                 class="ti-angle-double-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                         @endforeach
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>

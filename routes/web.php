@@ -12,6 +12,7 @@ use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\PermissionController;
+use App\Http\Controllers\DetailNewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,11 +26,13 @@ use App\Http\Controllers\PermissionController;
 */
 
 Route::get('/', [FrontController::class, 'index'])->name('home');
+Route::get('/detail_news', [DetailNewsController::class, 'index'])->name('detail');
+Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
 
 Route::get('/linkstorage', function () {
-    Artisan::call('storage:link');
+    Artisan::call('storage:link'); 
 });
-
+   
 Auth::routes(['register' => false]);
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
@@ -39,12 +42,12 @@ Route::prefix('/')
     ->group(function () {
         Route::resource('roles', RoleController::class);
         Route::resource('permissions', PermissionController::class);
-
         Route::resource('abouts', AboutController::class);
         Route::resource('articles', ArticleController::class);
         Route::resource('categories', CategoryController::class);
         Route::resource('products', ProductController::class);
         Route::resource('sliders', SliderController::class);
         Route::resource('users', UserController::class);
-        Route::resource('galleries', GalleryController::class);
+     
+       
     });
